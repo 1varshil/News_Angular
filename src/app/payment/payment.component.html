@@ -1,0 +1,5 @@
+<button (click)="selectedMethod(PaymentTypes.VISA)">visa</button>
+<button (click)="selectedMethod(PaymentTypes.CREDIT_CARD)">Credit-card</button>
+<button (click)="selectedMethod([PaymentTypes.CRYPTO_CURRENCY])">Crypto Currency</button>
+
+<h3>Selected payment Category is : {{selectedPaymentType}}</h3>
